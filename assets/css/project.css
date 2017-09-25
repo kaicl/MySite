@@ -1,32 +1,30 @@
 
 .projecttitle{
-  height: 100px;
-  padding: 2px 0 4px 0;
-  margin: 0 0 -10px 0;
+  color:#bababa;
+}
 
-  background: white;
-  color:white;
-
+.projecttitle h3{
+  color:#bababa;
 }
 
 .projcontent{
   display: none;
-  transition: 0.2s linear;
-  opacity: 1;
-  height: 200px;
+  border-left: 1px solid #bababa;
+  color: #bababa;
 
+  margin-left: 50px;
+  padding-left: 20px;
 }
-.projecttitle:hover{
-  background: #bababa;
-  color:white;
+#image{
+  padding-left: 5px;
+  border-left: 1px solid #f2f2f2;
+
+  width: 30%;
+  float: left;
+  margin: 1.66%;
 }
 
-.projecttitle:nth-child(2n){
-  background: #f2f2f2;
-
-  color:white;
-}
-.projecttitle:nth-child(2n):hover{
-  background: #bababa;
-  color:white;
+.projecttitle:hover h3{
+  color:rgb(119, 119, 119);
+  text-indent: 50px;
 }
