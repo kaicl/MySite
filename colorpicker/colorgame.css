@@ -1,0 +1,79 @@
+body{
+  background-color: #f7f7f7;
+  margin: 0;
+  font-family: "Montserrat", "Avenir";
+}
+
+#container1{
+  text-align: center;
+  background-color: rgb(119, 119, 119);
+  color: rgba(255,255,255,1);
+  padding: 20px 20px;
+
+}
+h1{
+  text-transform: uppercase;
+  line-height: 1.2;
+  font-weight: normal;
+}
+#colorname{
+  font-size: 200%;
+
+}
+#container2{
+  background: rgba(255,255,255,1);
+  color: rgb(119, 119, 119);
+  text-align: center;
+  height: 30px;
+
+}
+
+#answer{
+  display: inline-block;
+  width: 20%;
+}
+button{
+  border: none;
+  background: none;
+  color: rgb(119, 119, 119);
+  text-transform: uppercase;
+  height: 100%;
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-size: inherit;
+  transition: all 0.8s;
+
+  /*add more suport to different browser*/
+  -webkit-transition: all 0.8s;
+  -moz-transition: all 0.8s;
+}
+button:hover{
+  background: rgb(119, 119, 119);
+  color: rgba(255,255,255,1);
+}
+
+.selected{
+  color: rgba(255,255,255,1);
+  background: rgb(119, 119, 119);
+}
+
+
+#container3{
+  text-align: center;
+  margin: auto;
+  width: 700px;
+}
+
+.mysquare{
+  background: rgba(80,132,179,1);
+  width: 30%;
+  padding-bottom: 30%;
+  float: left;
+  margin: 1.66%;
+  border-radius: 20%;
+
+  transition: all 0.7s;
+  /*add more suport to different browser*/
+  -webkit-transition: all 1.2s;
+  -moz-transition: all 1.2s;
+}
