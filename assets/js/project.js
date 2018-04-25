@@ -12,6 +12,14 @@ $("#t3").on("click", function(){
   $("#c3").slideToggle();
 });
 
+$("#t4").on("click", function(){
+  $("#c4").slideToggle();
+});
+
+$("#t5").on("click", function(){
+  $("#c5").slideToggle();
+});
+
 $(".projcontent").on("mouseleave", function(){
   $(this).css("color","#bababa");
 });
