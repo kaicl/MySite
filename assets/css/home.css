@@ -1,6 +1,7 @@
 body{
 	padding: 0;
 	margin: 0;
+	font-family: 'IBM Plex Mono', monospace;
 }
 
 .main{	
@@ -122,6 +123,11 @@ body{
 	padding-left: 160px;
 }
 
-
+footer{
+	margin: auto;
+	width: 700px;
+  color: rgb(231, 231, 231);
+  text-align: right;
+}
 
 
